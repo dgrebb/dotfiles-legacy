@@ -1,4 +1,3 @@
-dotfiles
-========
+#dgrebb's dotfiles
 
-Dotfiles
+These are my dotfiles. I like them.
