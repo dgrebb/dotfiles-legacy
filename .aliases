@@ -1,2 +1,7 @@
 # -- Server --------------------------------------------------------------------
 alias server='open http://localhost:8000 && http-server -p 8000'
+
+# -- Git --------------------------------------------------------------------
+# Note: only works with ZSH git plugin enabled
+alias gpsu='git push --set-upstream origin $(current_branch)'
+alias gopr='open https://github.comcast.com/eBiz/ResiPatternLab/compare/develop...$(current_branch)'
